@@ -28,16 +28,6 @@ Chart.js
 ✅ Botões de controle para aumentar ou reduzir o consumo (simulação interativa).
 ✅ Design responsivo e com efeitos de transição visual.
 
-🚀 Como Executar Localmente
-Clone o repositório ou copie os arquivos:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seuusuario/painel-sustentabilidade-iot.git
-Abra o arquivo index.html no navegador:
-
-Basta dar um duplo clique no arquivo index.html ou abrir com um editor de código e usar a opção "Live Server" (se estiver usando VS Code).
 
 📚 Conceitos Demonstrados
 Internet das Coisas (IoT): Comunicação de sensores simulados via interface web.
