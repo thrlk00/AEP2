@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Sustentabilidade Urbana - IoT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Painel de Monitoramento de Sustentabilidade</h1>
+
+    <div class="sensor">
+        <h2>Consumo de Energia</h2>
+        <canvas id="graficoEnergia"></canvas>
+        <p id="alertaEnergia"></p>
+        <button onclick="ajustar('energia', -10)">Reduzir Consumo</button>
+        <button onclick="ajustar('energia', 10)">Aumentar Consumo</button>
+    </div>
+
+    <div class="sensor">
+        <h2>Consumo de Água</h2>
+        <canvas id="graficoAgua"></canvas>
+        <p id="alertaAgua"></p>
+        <button onclick="ajustar('agua', -10)">Reduzir Consumo</button>
+        <button onclick="ajustar('agua', 10)">Aumentar Consumo</button>
+    </div>
+
+    <div class="sensor">
+        <h2>Iluminação Pública</h2>
+        <canvas id="graficoLuz"></canvas>
+        <p id="alertaLuz"></p>
+        <button onclick="ajustar('luz', -10)">Reduzir Iluminação</button>
+        <button onclick="ajustar('luz', 10)">Aumentar Iluminação</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
