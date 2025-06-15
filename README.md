@@ -17,9 +17,9 @@ HTML5
 
 CSS3
 
-JavaScript (puro)
+JavaScript 
 
-Chart.js (para gráficos dinâmicos)
+Chart.js 
 
 🎨 Funcionalidades
 ✅ Visualização em tempo real dos níveis de consumo de energia, água e iluminação.
@@ -27,10 +27,6 @@ Chart.js (para gráficos dinâmicos)
 ✅ Alertas de consumo crítico (baixo ou alto).
 ✅ Botões de controle para aumentar ou reduzir o consumo (simulação interativa).
 ✅ Design responsivo e com efeitos de transição visual.
-
-📷 Imagem de Demonstração (sugestão de screenshot)
-Adicione aqui uma imagem printscreen do painel rodando, por exemplo:
-
 
 🚀 Como Executar Localmente
 Clone o repositório ou copie os arquivos:
